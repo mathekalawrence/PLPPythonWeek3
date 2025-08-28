@@ -1,5 +1,6 @@
 #Python Week3 Assignment
 
+#The currency is in US dollars($)
 def calculate_discount(price, discount_percent):
     """
     Calculating the final price after a discount.
@@ -22,7 +23,7 @@ def calculate_discount(price, discount_percent):
 try:
         price = float(input("Enter the original price of the item: "))
         #Prompting the user to enter the discount %ge
-        discount_percent = float(input("Please enter the discount percentage"))
+        discount_percent = float(input("Please enter the discount percentage: "))
 
         #Calling the function to calculate the final price.
         final_price = calculate_discount(price, discount_percent)
