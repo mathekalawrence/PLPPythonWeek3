@@ -31,3 +31,8 @@ def calculate_discount(price, discount_percent):
             print(f"The final price after the discount is: ${final_price:.2f}")
         else:
             print(f"No discount applied. The final price is: ${price:.2f}")
+
+    #Handling exceptions
+    except ValueError:
+        print("Invalid input..please check!")
+    
