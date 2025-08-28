@@ -6,8 +6,10 @@ def calculate_discount(price, discount_percent):
     If the discount is less than 20%, then it has to return the originaal price
 
     """
-    if discount_percent >= 20:
+    if discount_percent >= 20.0:
+        #Calculating the discount amount
         discount_amount = (discount_percent / 100) * price
+        #Calculating the final price
         return price - discount_amount  
     else:
         return price
